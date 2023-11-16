@@ -1,0 +1,67 @@
+body {
+  width: 800px;
+  margin: 50px auto;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.breed-select {
+  cursor: pointer;
+  position: relative;
+}
+
+.error {
+  color: red;
+  font-weight: bolder;
+}
+
+.loader {
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  border: 10px solid gray;
+  border-bottom-color: #0000;
+  border-radius: 50%;
+  animation: rotation 1s linear infinite;
+  display: inline-block;
+  position: absolute;
+  top: 150px;
+  left: 700px;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#cat-info-section {
+  flex-direction: row-reverse;
+  gap: 30px;
+  display: flex;
+}
+
+.cat__figure {
+  width: 40%;
+}
+
+.cat__figure img {
+  width: 100%;
+}
+
+.cat__content {
+  width: 60%;
+  margin-top: -20px;
+}
+
+.cat__temperament {
+  font-weight: bolder;
+}
+
+/*# sourceMappingURL=index.dda6fa14.css.map */
